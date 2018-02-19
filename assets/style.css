@@ -1,0 +1,84 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.row {
+  clear: both;
+}
+
+[id^="crystal-"] {
+  font-size: 72px;
+  font-weight: bold;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  vertical-align: middle;
+  margin: 10px;
+  float: left;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#game-number {
+  margin: 10px;
+  float: left;
+  width: 460px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #3aaaaa;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#scorebox {
+  float: right;
+  margin: 10px;
+  height: 100px;
+  width: 300px;
+  background-color: #93aaaa;
+}
+
+#total {
+  margin: 10px;
+  text-align: center;
+}
+
+#total-number {
+  margin: 0 auto;
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+  background-color: lightblue;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#win, #loss {
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#win {
+  background-color: seagreen;
+}
+
+#loss {
+  background-color: crimson;
+}
